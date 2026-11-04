@@ -9,19 +9,20 @@ the private development source.
 
 ## Downloads
 
-Installers will appear on the [Releases page](https://github.com/JayDubb85/Atlas-Releases/releases).
-The content packages for the locally supplied **Betav0.1.7_1.0.0.3479** installer
-are now public. Existing copies of that online installer can download them
-automatically without a GitHub account. If Setup previously reported 404, close
-it and run the same installer again.
+The current beta is **[Betav0.1.9_1.0.0.3479](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.9_1.0.0.3479)** for game build 1.0.0.3479.
 
-The unsigned application installer and pin connector remain in a separate draft
-pending code signing and antivirus vendor review. No public application update
-is advertised yet. Do not disable antivirus to install or run Atlas.
+Download **[Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.9_1.0.0.3479/CrimsonAtlas-Betav0.1.9_1.0.0.3479-Online-Setup.exe)**. It downloads and verifies the required content automatically; no GitHub account or manual ZIP extraction is needed. Optional offline installation works with all six matching content ZIPs beside Setup.
 
-The online installer downloads and verifies its required content.
-It also supports an offline kit. Atlas will notify you when a newer
-published beta is available and download it when you click **Update**.
+Existing updater-equipped betas show **Update** when a newer release is found. Use **Updates → Check for updates** for an immediate check, then **Update** to download and **Install update** to launch Setup. Complete Setup and reopen Atlas. Notes and preferences are preserved.
+
+This beta includes the Looter footer menu, six independent pickup categories,
+a 1–200 meter radius, underwater plants, and gameplay pin placement with a
+0.5-second Space hold. It contains the current development runtime and content.
+See the release notes for representative gameplay coverage and known limits.
+
+This is unsigned beta software. Code signing and antivirus vendor review are
+pending; it is not certified antivirus-cleared. Do not disable antivirus to
+install or run Atlas.
 
 ## Support
 
