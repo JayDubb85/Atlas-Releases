@@ -9,17 +9,17 @@ source code.
 
 ## Download
 
-Current beta: **[Betav0.1.12_1.0.0.3576](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.12_1.0.0.3576)**.
+Current beta: **[Betav0.1.13_1.0.0.3576](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.13_1.0.0.3576)**.
 
-**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.12_1.0.0.3576/CrimsonAtlas-Betav0.1.12_1.0.0.3576-Online-Setup.exe)**
+**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.13_1.0.0.3576/CrimsonAtlas-Betav0.1.13_1.0.0.3576-Online-Setup.exe)**
 
 Setup downloads and verifies its content automatically. No GitHub login or manual
 ZIP extraction is needed. Install over the previous beta; notes are preserved.
 Restart the game once if an older native connector remains loaded.
 
-This release repairs player position, inventory and storm consistency for game
-1.0.0.3576, and
-adds a game-version mismatch warning. It includes Looter, gameplay pins and stale-request
+This release fixes live map and orange storm blinking and improves navigation
+connection errors for game 1.0.0.3576. It retains the game-version mismatch
+warning, Looter, gameplay pins and stale-request
 recovery, road navigation inside the game map and minimap, unlimited repeat rest
 at existing rest spots, and current development data/readers. The lantern trail
 remains deferred. See the release notes for verification scope and known limits.
