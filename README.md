@@ -2,35 +2,42 @@
 
 Public release hub for the Atlas Windows companion for Crimson Desert.
 
-Atlas brings maps, quest and faction journals, an item catalog, and supported
-live game information into a local companion app. Your notes and imported saves
-remain on your computer; this repository does not contain personal profiles or
-the private development source.
+Atlas brings maps, quest and faction journals, an item catalog, and live game
+information into a local companion app. Personal notes and imported saves remain
+on your computer; this repository contains neither personal profiles nor private
+source code.
 
-## Downloads
+## Download
 
-The current beta is **[Betav0.1.10_1.0.0.3479](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.10_1.0.0.3479)** for game build 1.0.0.3479.
+Current beta: **[Betav0.1.11_1.0.0.3549](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.11_1.0.0.3549)**.
 
-Download **[Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.10_1.0.0.3479/CrimsonAtlas-Betav0.1.10_1.0.0.3479-Online-Setup.exe)**. It downloads and verifies the required content automatically; no GitHub account or manual ZIP extraction is needed. Optional offline installation works with all six matching content ZIPs beside Setup.
+**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.11_1.0.0.3549/CrimsonAtlas-Betav0.1.11_1.0.0.3549-Online-Setup.exe)**
 
-Existing updater-equipped betas show **Update** when a newer release is found. Use **Updates â†’ Check for updates** for an immediate check, then **Update** to download and **Install update** to launch Setup. Complete Setup and reopen Atlas. Notes and preferences are preserved.
+Setup downloads and verifies its content automatically. No GitHub login or manual
+ZIP extraction is needed. Install over the previous beta; notes are preserved.
+Restart the game once if an older native connector remains loaded.
 
-This beta fixes Looter and pin connection failing during game startup by waiting for gameplay and available startup memory. If a connector already failed in your current game session, save and restart the game once after updating.
+This release includes the repaired Looter, gameplay pins and stale-request
+recovery, road navigation inside the game map and minimap, unlimited repeat rest
+at existing rest spots, and current development data/readers. The lantern trail
+remains deferred. See the release notes for verification scope and known limits.
 
-This beta includes the Looter footer menu, six independent pickup categories,
-a 1â€“200 meter radius, underwater plants, and gameplay pin placement with a
-0.5-second Space hold. It contains the current development runtime and content.
-See the release notes for representative gameplay coverage and known limits.
+The installed companion window now provides **Check for updates** and
+**Export diagnostic logs**. Background logs are bounded and stay local. Export
+a ZIP to share when troubleshooting; saves, inventory and full memory dumps are
+excluded. Nothing uploads automatically. The website's Updates control remains.
+
+Existing updater-equipped betas can find this release through **Updates > Check
+for updates**. Download the update, choose **Install update**, complete Setup and
+reopen Atlas.
 
 This is unsigned beta software. Code signing and antivirus vendor review are
-pending; it is not certified antivirus-cleared. Do not disable antivirus to
-install or run Atlas.
+pending; this release does not claim antivirus clearance. Do not disable protection.
 
 ## Support
 
 Report problems using [Issues](https://github.com/JayDubb85/Atlas-Releases/issues).
-Include the Atlas version, game version, and a description of the problem.
-Do not post saves, credentials, access tokens, or personal logs publicly.
+Include the Atlas/game version, steps and expected/actual behavior. Review the
+exported diagnostic ZIP before sharing; do not post saves or credentials.
 
 Atlas is an unofficial companion and is not affiliated with Pearl Abyss.
-Game compatibility and known limitations are documented with each release.
