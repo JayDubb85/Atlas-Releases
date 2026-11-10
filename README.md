@@ -9,28 +9,24 @@ source code.
 
 ## Download
 
-Current beta: **[Betav0.1.15_1.0.0.3576](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.15_1.0.0.3576)**.
+Current beta: **[Betav0.1.16_1.0.0.3576](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.16_1.0.0.3576)**.
 
-**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.15_1.0.0.3576/CrimsonAtlas-Betav0.1.15_1.0.0.3576-Online-Setup.exe)**
+**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.16_1.0.0.3576/CrimsonAtlas-Betav0.1.16_1.0.0.3576-Online-Setup.exe)**
 
 Setup downloads and verifies its content automatically. No GitHub login or manual
 ZIP extraction is needed. Install over the previous beta; notes are preserved.
 Restart the game once if an older native connector remains loaded.
 
-This release adds saved quick-placement pin styles, wider highlighted removal
-targets, automatic pin-session recovery after a companion restart, and faster
-live player tracking. Tap Space to place or remove a highlighted nearby pin;
-hold Space for 0.5 seconds to change its saved appearance.
+This release adds verified Damiane live tracking, Inventory, shared Skills,
+Looter and Unlimited Rest support on game 1.0.0.3576. It preserves fast live
+position/pin updates, tap-Space pins with saved appearance, inventory/storage
+transfers, stable map/storm display, routes on the in-game map and minimap, and
+golden-trail guidance in gameplay. Oongka and live character switches during
+active native actions have not been verified. See the release notes for scope.
 
-It includes native inventory transfers and item grouping, golden-trail guidance
-during gameplay, road routes on the in-game map and minimap, Looter, unlimited
-repeat rest at existing rest spots, live map/storm continuity, game-version
-warnings, and the current maps, catalog and journals. See the release notes for
-verification scope and known limits.
-
-**Known limitation:** live connection is verified with Kliff. In the reported
-Damiane session, Atlas remains at “Waiting for gameplay.” Character-switch
-support is unresolved; other playable characters have not been verified.
+Tap Space to place a pin or remove a highlighted nearby pin; hold Space for
+0.5 seconds to change its saved appearance. The existing maps, catalogs,
+quest and faction journals, and game-version warnings are included.
 
 The installed companion window now provides **Check for updates** and
 **Export diagnostic logs**. Background logs are bounded and stay local. Export
