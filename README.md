@@ -9,16 +9,19 @@ source code.
 
 ## Download
 
-Current beta: **[Betav0.1.16_1.0.0.3576](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.16_1.0.0.3576)**.
+Current beta: **[Betav0.1.17_1.0.0.3576](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.17_1.0.0.3576)**.
 
-**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.16_1.0.0.3576/CrimsonAtlas-Betav0.1.16_1.0.0.3576-Online-Setup.exe)**
+**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.17_1.0.0.3576/CrimsonAtlas-Betav0.1.17_1.0.0.3576-Online-Setup.exe)**
 
 Setup downloads and verifies its content automatically. No GitHub login or manual
 ZIP extraction is needed. Install over the previous beta; notes are preserved.
 Restart the game once if an older native connector remains loaded.
 
-This release adds verified Damiane live tracking, Inventory, shared Skills,
-Looter and Unlimited Rest support on game 1.0.0.3576. It preserves fast live
+This release adds inventory actions while the map, Inventory or pause menu is
+open, corrected Knowledge and challenge artwork, transparent refinement marks,
+and a dimmer light theme with a clearer Update button. The game must still be
+updating its UI to execute inventory actions. Four individual DLC recipe images
+remain unresolved. Damiane support is included on game 1.0.0.3576. It preserves fast live
 position/pin updates, tap-Space pins with saved appearance, inventory/storage
 transfers, stable map/storm display, routes on the in-game map and minimap, and
 golden-trail guidance in gameplay. Oongka and live character switches during
