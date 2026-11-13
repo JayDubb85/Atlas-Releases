@@ -9,23 +9,28 @@ source code.
 
 ## Download
 
-Current beta: **[Betav0.1.17_1.0.0.3576](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.17_1.0.0.3576)**.
+Current beta: **[Betav0.1.18_1.0.0.3663](https://github.com/JayDubb85/Atlas-Releases/releases/tag/Betav0.1.18_1.0.0.3663)**.
 
-**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.17_1.0.0.3576/CrimsonAtlas-Betav0.1.17_1.0.0.3576-Online-Setup.exe)**
+**[Download Online Setup](https://github.com/JayDubb85/Atlas-Releases/releases/download/Betav0.1.18_1.0.0.3663/CrimsonAtlas-Betav0.1.18_1.0.0.3663-Online-Setup.exe)**
 
 Setup downloads and verifies its content automatically. No GitHub login or manual
 ZIP extraction is needed. Install over the previous beta; notes are preserved.
 Restart the game once if an older native connector remains loaded.
 
-This release adds inventory actions while the map, Inventory or pause menu is
-open, corrected Knowledge and challenge artwork, transparent refinement marks,
-and a dimmer light theme with a clearer Update button. The game must still be
-updating its UI to execute inventory actions. Four individual DLC recipe images
-remain unresolved. Damiane support is included on game 1.0.0.3576. It preserves fast live
-position/pin updates, tap-Space pins with saved appearance, inventory/storage
-transfers, stable map/storm display, routes on the in-game map and minimap, and
-golden-trail guidance in gameplay. Oongka and live character switches during
-active native actions have not been verified. See the release notes for scope.
+This release updates live readers and native features for game **1.0.0.3663**,
+fixes the Looter ownership check, and prevents exchanges of stacked equipped
+items. It also improves update-dialog contrast and changes app updates to
+download only the Setup EXE; Setup downloads missing content packages afterward.
+All existing artwork, inventory, navigation, pin and diagnostic features remain.
+
+Real-game checks cover pins, Insects at 25/200 meters, inventory in four menu
+states, storage, equipment, native map/minimap routes and the golden trail.
+The final connector's live Rest retest was explicitly waived; Rest passed on the
+first 3663 connector and its source is unchanged. Active-storm visuals and Oongka
+were not retested on this patch. See the release notes for full validation scope.
+
+Beta17 and earlier may still pre-download content while updating to Beta18.
+Installer-only downloads take effect once Beta18 is installed.
 
 Tap Space to place a pin or remove a highlighted nearby pin; hold Space for
 0.5 seconds to change its saved appearance. The existing maps, catalogs,
